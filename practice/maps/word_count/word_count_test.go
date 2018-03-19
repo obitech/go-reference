@@ -46,7 +46,15 @@ var words = []struct {
         "Peer": 2,
     }, 3},
     {[]string{"四月份平民"}, 5, map[string]int{"四月份平民": 0}, 5},
+    {[]string{
+        "Matthew", "Sarah", "Augustus", "Heidi", "Emilie",
+        "Peter", "Giana", "Adriano", "Aaron", "Elizabeth",
+    }, 50, map[string]int{"Matthew": 2, "Peter": 2, "Giana": 3, "Adriano": 4, "Elizabeth": 4,
+        "Sarah": 2, "Augustus": 4, "Heidi": 3, "Emilie": 4, "Aaron": 3}, 50 - 31},
 }
+
+//map[Matthew:2 Peter:2 Giana:4 Adriano:7 Elizabeth:5 Sarah:2 Augustus:10 Heidi:5 Emilie:6 Aaron:5]
+// Coins left: 2
 
 func mapsEqual(t *testing.T, m1 map[string]int, m2 map[string]int) bool {
     t.Helper()

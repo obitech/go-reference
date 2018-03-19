@@ -1,8 +1,7 @@
 /*
 * You have 50 bitcoins to distribute to 10 users:
 * Matthew, Sarah, Augustus, Heidi, Emilie, Peter, Giana, Adriano, Aaron, Elizabeth.
-* The coins will be distributed based on the vowels contained in each name where:
-* a: 1 coin e: 1 coin i: 2 coins o: 3 coins u: 4 coins and a user can’t get more than 10 coins.
+* A vowel equals one coin and a user can’t get more than 10 coins.
 * Print a map with each user’s name and the amount of coins distributed.
  */
 package word_count
