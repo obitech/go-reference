@@ -8,3 +8,5 @@ This is my personal reference repo for various Go resources and tutorials:
 - [Effective Go](https://golang.org/doc/effective_go.html)
 - [Golang Book](https://www.golang-book.com/books/intro)
 - [Go by Example](https://gobyexample.com/)
+- [Github: ArdanLabs - Go Training](https://github.com/ardanlabs/gotraining)
+- [RabbitMQ Go Tutorial](https://github.com/rabbitmq/rabbitmq-tutorials/blob/master/go/rpc_server.go)
