@@ -90,7 +90,7 @@ func main() {
 		if char := strings.ToLower(string(scanner.Text()[0]))[0]; char >= 97 && char <= 121 {
 			wordCount[string(char)]++
 		}
-		wordCount[strings.ToLower(scanner.Text())]++
+		//wordCount[strings.ToLower(scanner.Text())]++
 	}
 	check(scanner.Err())
 	fmt.Printf("Sorted by values: %v\n", sortMapByValue(wordCount))
