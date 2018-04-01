@@ -87,7 +87,7 @@ func main() {
 	wordCount := make(map[string]int)
 
 	for scanner.Scan() {
-		if char := strings.ToLower(string(scanner.Text()[0]))[0]; char >= 97 && char <= 121 {
+		if char := strings.ToLower(scanner.Text())[0]; char >= 97 && char <= 121 {
 			wordCount[string(char)]++
 		}
 		//wordCount[strings.ToLower(scanner.Text())]++
